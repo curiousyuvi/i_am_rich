@@ -4,10 +4,21 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-        home: Scaffold(
-      appBar: AppBar(
-        title: Text('I Am Rich'),
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Center(
+            child: Text('I Am Rich'),
+          ),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://freepngimg.com/thumb/diamond/33314-5-diamond-gem-clip-art-free-thumb.png'),
+          ),
+        ),
       ),
-    )),
+    ),
   );
 }
