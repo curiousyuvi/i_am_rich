@@ -14,8 +14,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://freepngimg.com/thumb/diamond/33314-5-diamond-gem-clip-art-free-thumb.png'),
+            image: AssetImage('Images/Diamond_png.png'),
           ),
         ),
       ),
