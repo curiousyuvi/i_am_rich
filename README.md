@@ -7,7 +7,3 @@ NOTE- One thing to note that you may think that the file size of apk(48.87 MB) i
 for an app that just displays an image but the thing is that in the IDE with flutter there are so 
 many useless code already present to help new developers and with my current skill level I do add not 
 know which file I can remove, otherwise the apk file size would had been a lot less.
-
-
-
-
