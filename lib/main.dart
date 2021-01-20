@@ -2,8 +2,14 @@ import 'package:flutter/material.dart';
 
 //main() is the starting point of all are flutter apps.
 void main() {
-  runApp(
-    MaterialApp(
+  runApp(Myapp());
+}
+
+class Myapp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
@@ -18,6 +24,6 @@ void main() {
           ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
